@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.newFont {
+  font-family: "space-ranger", sans-serif;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
