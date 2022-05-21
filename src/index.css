@@ -37,3 +37,9 @@ html {
     font-size: 55% !important; /* 62.5% of 16px = 10px */
   }
 }
+
+@font-face {
+  font-family: 'Space Ranger';
+  src: local('Space Ranger'),
+    url(./Fonts/space_ranger/spaceranger.ttf) format('truetype');
+}
