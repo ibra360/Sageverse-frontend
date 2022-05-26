@@ -5,16 +5,7 @@ import SocialIcons from "./SocialIcons";
 //
 export default function Navbar() {
   return (
-    <div
-      style={{
-        color: "white",
-        backgroundColor: "#1F1F1F",
-        padding: "4px 15%",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
-    >
+    <div className="bottomNavbarBox">
       <div
         style={{
           display: "flex",
@@ -27,7 +18,7 @@ export default function Navbar() {
           alt="Sageverse Logo"
           style={{ marginRight: "15px" }}
         />
-        <p>© 2021 Uniquely scale installed base paradigms</p>
+        <p>© 2022 Sageverse - All Rights Reserved</p>
       </div>
       <div
         style={{
@@ -36,6 +27,13 @@ export default function Navbar() {
           alignItems: "center",
         }}
       >
+        <a
+          style={{ color: "white", textDecoration: "none", margin: "0px 20px" }}
+          target="_blank"
+          href="https://www.fiverr.com/fahadproo"
+        >
+          <p>Design & developed by fahad</p>
+        </a>
         <SocialIcons />
       </div>
     </div>

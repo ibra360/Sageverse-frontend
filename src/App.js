@@ -4,12 +4,13 @@ import Landing from './Pages/Landing';
 import SingleNftPage from './Pages/SingleNftPage';
 import './App.css';
 
+
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="about" element={<SingleNftPage />} />
+        <Route path="/nft" element={<SingleNftPage />} />
       </Routes>
       <Navbar />
     </div>

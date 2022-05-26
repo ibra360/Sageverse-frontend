@@ -34,7 +34,7 @@ html {
 
 @media only screen and (max-width: 900px) {
   html {
-    font-size: 55% !important; /* 62.5% of 16px = 10px */
+    font-size: 65% !important; /* 62.5% of 16px = 10px */
   }
 }
 

@@ -38,11 +38,43 @@
 }
 
 .newFont {
-  font-family: 'Space Ranger';
+  font-family: "Space Ranger";
 }
 
 .main-nft-box {
   background-image: url(./Assets/Nftbackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.navbarBox {
+  height: 90px;
+  background-color: black;
+  padding-top: 30px;
+  margin-top: -10px;
+
+  padding: 4px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomNavbarBox {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 4px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .navbarBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottomNavbarBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

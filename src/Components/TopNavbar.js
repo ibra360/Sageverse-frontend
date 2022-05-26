@@ -1,24 +1,25 @@
 import React from "react";
 import SocialIcons from "./SocialIcons";
-import SageverseLogo from "../Assets/logo.png";
+import SageverseLogo from "../Assets/logoHd.png";
 import Button from "@mui/material/Button";
 
 export default function TopNavbar() {
   return (
     <div
-      style={{
-        height: "90px",
-        backgroundColor: "black",
-        paddingTop: "30px",
-        marginTop: "-10px",
+      className="navbarBox"
+      // style={{
+      //   height: "90px",
+      //   backgroundColor: "black",
+      //   paddingTop: "30px",
+      //   marginTop: "-10px",
 
-        padding: "4px 15%",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
+      //   padding: "4px 15%",
+      //   display: "flex",
+      //   justifyContent: "space-between",
+      //   alignItems: "center",
+      // }}
     >
-      <img src={SageverseLogo} alt="Sageverse Logo" />
+      <img src={SageverseLogo} alt="Sageverse Logo" width={"80px"} />
       <div
         style={{
           display: "flex",
@@ -35,19 +36,17 @@ export default function TopNavbar() {
             color: "black",
             fontWeight: "bold",
             textTransform: "none",
+            margin: "10px",
+            width: "fit-content",
           }}
         >
-          Whitepaper
-        </Button>
-        <Button
-          variant="contained"
-          style={{
-            backgroundColor: "#FF432C",
-            fontWeight: "bold",
-            textTransform: "none",
-          }}
-        >
-          Mint Now
+          <a
+            href="https://sageverse.gitbook.io/sageverse/"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            {" "}
+            Whitepaper
+          </a>
         </Button>
       </div>
     </div>
